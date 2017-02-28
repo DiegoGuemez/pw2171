@@ -1,0 +1,7 @@
+body
+{
+	background: rgba(255,0,0,0.4);
+	border: 1px solid red;
+	font-size: 16px;
+	max-width: 1024;
+}
