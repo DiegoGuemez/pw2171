@@ -3,6 +3,33 @@ body{
 	margin: 0 auto; /*Centramos el body*/
 	max-width: 1024px;
 }
-header img{
+header nav{
+	background: orange;
+	border-radius: 6px;
+}
+header nav ul{
+	padding: 12px 0px 10px 12px;
+}
+header nav ul li{
+	margin-right: 20px;
+	display: inline-block;
+	color: white;
+}
+.red{
 	float: right;
+	margin-top: -40px;
+}
+#seccion01 article[id="secc01art01"], [id="secc01art02"]{
+	display: inline-block;
+}
+#secc01art01{
+	border: 1px solid red;
+	padding: 0px 20px 0px 30px;
+	vertical-align: top;
+	width: 60%;
+}
+#secc01art02{
+	border: 1px solid blue;
+	vertical-align: top;
+	width: 30%;
 }
