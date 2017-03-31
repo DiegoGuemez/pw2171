@@ -4,10 +4,11 @@
 	<meta charset="utf-8" />
 	<title>Practica CSS3 03</title>
 	<link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Londrina+Shadow|Varela+Round" rel="stylesheet">
 </head>
 <body>
     <header>
-    	<img src="img/logo.jpg" alt="">
+    	<span class="logo"><img src="img/logo.jpg" alt=""></span>
     	<br>
     	<span class="miThema">MI THEMA EN HTML5</span>
     	<br>
@@ -30,48 +31,63 @@
     </header>
     <section id="seccion01">
     <article id="secc01art01">
-    	<article>
+    	<article id="artLem">
     		<img src="img/slider.jpg" alt="">
     	</article>
-    	<article>
-    		<span class="tituloPost">Titulo del post</span>
-    		<br>
-    		<img src="img/img-post.jpg" alt="">
-    		<br>
-    		<span class="admin">Por <span class="colorGris">Admin</span> El <span class="colorGris">30/05/2012.</span> En <span class="colorGris">Pruebas</span></span>
-    		<p>
-    		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellat quibusdam hic culpa quos error assumenda placeat voluptates debitis nihil dolores sed, modi suscipit fugiat deleniti necessitatibus fuga perferendis. Dolor!
-    		<p>
-    		<input type="button" value="Leer Mas..">
+    	<article id="secc01art01-2">
+    		<span class="tituloPost">Titulo del post <br></span>
+            <article id="secc01art01-2-1">
+                <img src="img/img-post.jpg" alt="">
+            </article>
+            <article id="secc01art01-2-2">
+                <article id="porAdmin">
+                    <span class="admin">Por <span class="colorGris">Admin</span> El <span class="colorGris">30/05/2012.</span> En <span class="colorGris">Pruebas</span></span>
+                </article>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellat quibusdam hic culpa quos error assumenda placeat voluptates debitis nihil dolores sed, modi suscipit fugiat deleniti necessitatibus fuga perferendis. Dolor!
+                <p>
+                <input type="button" value="Leer Mas..">
+            </article>
     	</article>
     </article>
     <article id="secc01art02">
-    	<article>
-    		<span class="publicidad">Publicidad</span>
-    		<br>
-    		<img src="img/publicidad.jpg" alt="">
-    		<img src="img/publicidad.jpg" alt="">
-    		<img src="img/publicidad.jpg" alt="">
-    		<img src="img/publicidad.jpg" alt="">
+    	<article id="secc01art02-1">
+            <article id="secc01art02-1-1">
+                <span class="publicidad">Publicidad</span>
+            </article>
+    		<article id="publicidadImg">
+                <img src="img/publicidad.jpg" alt="">
+                <img src="img/publicidad.jpg" alt="">
+                <img src="img/publicidad.jpg" alt="">
+                <img src="img/publicidad.jpg" alt="">      
+            </article>
     	</article>
-    	<article>
-    		<span class="buscador">Buscador</span>
-    		<input type="search" placeholder="Search...">
-    		<input type="button" value="Go">
+    	<article id="secc01art02-2">
+            <article id="secc01art02-2-1">
+                <span class="buscador">Buscador</span>
+            </article>
+            <article id="busqueda">
+                <input type="search" placeholder="Search...">
+                <input type="button" value="Go">
+            </article>
     	</article>
-    	<article>
-    		<span class="categorias">Categorias</span>
-    		<ul>
-    			<li>categoria 1</li>
-    			<li>categoria 2</li>
-    			<li>categoria 3</li>
-    			<li>categoria 4</li>
-    			<li>categoria 5</li>
-    			<li>categoria 6</li>
-    			<li>categoria 7</li>
-    		</ul>
+    	<article id="secc01art02-3">
+            <article id="secc01art02-3-1">
+                <span class="categorias">Categorias</span>
+            </article>
+            <article id="cat">
+                <ul>
+                    <li>categoria 1</li>
+                    <li>categoria 2</li>
+                    <li>categoria 3</li>
+                    <li>categoria 4</li>
+                    <li>categoria 5</li>
+                    <li>categoria 6</li>
+                    <li>categoria 7</li>
+                </ul>
+            </article>
     	</article>
     </article>
     </section>
 </body>
 </html>
+<!-- No ser pendejo -->

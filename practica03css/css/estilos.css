@@ -4,32 +4,180 @@ body{
 	max-width: 1024px;
 }
 header nav{
-	background: orange;
+	font-family: 'Varela Round', sans-serif;
+	font-size: .9em;
+	margin-top: 50px;
+	background: #ED5C0C;
 	border-radius: 6px;
 }
 header nav ul{
 	padding: 12px 0px 10px 12px;
 }
 header nav ul li{
-	margin-right: 20px;
+	margin-right: 32px;
 	display: inline-block;
 	color: white;
+}
+.logo{
+	margin-left: 15px;
 }
 .red{
 	float: right;
 	margin-top: -40px;
+	margin-right: 20px;
+}
+.miThema{
+	margin-left: 15px;
+	color: #F0F0F0 ;
+	font-family: 'Londrina Shadow', cursive;
+	font-size: 1.5em;
+}
+.admin{
+	font-size: .8em;
+	background: #F8F8F8;
+	padding: 4px 193px 10px 10px;
+	border-bottom: 1px solid gray;
+	border-radius: 9px;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: bold;
+}
+.publicidad, .buscador, .categorias{
+	color: white;
+	text-align: center;
+	margin-top: 15px;
+	padding: 10px 120px;
+	background: #ED5C0C;
+	border-radius: 15px;
+}
+.buscador{
+	padding: 10px 125px;
+}
+.tituloPost{
+	font-size: 1.8em;
+	color: gray;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: bold;
+}
+.colorGris{
+	color: gray;
+	font-style: italic;
 }
 #seccion01 article[id="secc01art01"], [id="secc01art02"]{
 	display: inline-block;
 }
+#secc01art01-2-1{
+	vertical-align: top;
+	width: 29.7%;
+}
+#secc01art01-2-1 img{
+	border: 8px solid lightgray;
+}
+#secc01art01-2-2{
+	vertical-align: top;
+	width: 68%;
+	font-family: 'Varela Round', sans-serif;
+	font-size: .9em;
+	margin-left: 5px;
+}
+#secc01art01-2-2 input[type="button"]{
+	color: white;
+	background: #B1B1B1;
+	border-radius: 9px;
+	font-weight: bold;
+	padding: 7px 6px;
+}
+#porAdmin{
+	margin-top: 3px;
+	margin-bottom: 15px;
+}
 #secc01art01{
-	border: 1px solid red;
 	padding: 0px 20px 0px 30px;
 	vertical-align: top;
 	width: 60%;
 }
+#artLem{
+	padding: 0px 50px 0px 0px;
+	border-bottom: 1px solid gray;
+}
+#busqueda{
+	border: 1px solid lightgray;
+	margin: 0px 25px;
+	padding: 4px 0px;
+	border-radius: 20px;
+}
+#busqueda input[type="search"]{
+	font-family: 'Varela Round', sans-serif;
+	font-weight: bold;
+	border-radius: 12px;
+	padding: 2px 30px;
+	color: #000000;
+}
+#busqueda input[type="button"]{
+	color: white;
+	background: #B1B1B1;
+	padding: 5px 5px;
+	border: 2px solid gray;
+	border-radius: 20px;
+	font-size: .5em;
+}
+#cat{
+	margin-left: -10px;
+}
+#secc01art01-2{
+	margin-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid gray;
+}
+#secc01art01-2 article[id="secc01art01-2-1"], [id="secc01art01-2-2"]{
+	display: inline-block;
+}
 #secc01art02{
-	border: 1px solid blue;
+	/*text-align: center;*/
+	margin-top: 20px;
 	vertical-align: top;
-	width: 30%;
+	width: 31%;
+}
+#secc01art02-1, #secc01art02-2{
+	text-align: center;
+}
+#secc01art02-1, #secc01art02-2, #secc01art02-3{
+	background: #F8F8F8;
+	border-radius: 9px;
+	margin-bottom: 20px;
+	border: 1px solid lightgray
+}
+#secc01art02-1-1, #secc01art02-2-1, #secc01art02-3-1{
+	font-family: 'Varela Round', sans-serif;
+	margin-left: -2px;
+	margin-top: 6px;
+}
+#publicidadImg{
+	margin-top: 26px;
+}
+#secc01art02-1{
+	padding-bottom: 10px;
+}
+#secc01art02-2{
+	padding-bottom: 10px;
+}
+#secc01art02-3{
+	padding-bottom: 2px;
+}
+#secc01art02-3 ul li{
+	font-family: 'Varela Round', sans-serif;
+	font-size: .9em;
+	border-bottom: 1px solid gray;
+	border-bottom-style: dotted;
+	margin-right: 30px;
+	padding-bottom: 3px;
+	padding-top: 9px;
+}
+#secc01art02-2-1{
+	margin-bottom: 25px;
+} 
+#secc01art02-3-1{
+	margin-bottom: 30px;
+}
+#secc01art02-3-1{
+	text-align: center;
 }
