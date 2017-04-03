@@ -1,0 +1,97 @@
+body{
+	border: 1px solid purple;
+	font-size: 16px; /*1em*/
+	margin: 0 auto; /*Centramos el body*/
+	max-width: 1024px;
+}
+header{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	/*border-bottom-style: dotted;*/
+	border-bottom: 2px dotted black;
+}
+header img[id="firstBIKE"]{
+	width: 200px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+header nav{
+	margin-top: 70px;
+}
+header nav{
+	margin-left: -20px;
+}
+header nav ul li{
+	font-size: .9em;
+	font-weight: bold;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.logos{
+	float: right;
+}
+.verde{
+	color: lightgreen;
+}
+#secc01 article{
+	vertical-align: top;
+	display: inline-block;
+}
+#secc01art01{
+	width: 55%;
+}
+#secc01art02{
+	margin-right: -500px;
+	width: 40%
+}
+#go{
+	width: 200px;
+	top: -130px;
+	left: -50px;
+	float: right;
+	position: relative;
+}
+#buy{
+	width: 65px;
+	top: -60px;
+	left: -310px;
+	float: right;
+	position: relative;
+}
+#first{
+	font-size: 4em;
+	border-bottom: 2px dotted black;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+#videos{
+	margin-top: 20px;
+	margin-left: 15px;
+}
+#video01, #video02{
+	width: 250px;
+}
+#video01{
+	margin-right: 20px;
+}
+#bike{
+	float: left;
+	position: relative;
+	width: 450px;
+}
+#years{
+	width: 150px;
+	right: 20px;
+	float: left;
+	position: relative;
+	top: -80px;
+}
+#abajo article{
+	margin-top: 20px;
+	vertical-align: top;
+	display: inline-block;
+}
+#b01, #b02,#b03,#b04,#b05{
+	width: 19%;
+}
