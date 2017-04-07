@@ -5,10 +5,10 @@ body{
 	text-align: center;
 }
 form{
-	background: gray;
+	background: orange;
 	border: 1px solid black;
 	border-radius: 5px;
-	box-shadow: 15px 15px 15px rgba(50,50,50,0.7);
+	box-shadow: 15px 15px 15px lightblue/*rgba(50,50,50,0.7)*/;
 	margin: 0 auto;
 	padding: 10px;
 	width: 320px;
@@ -21,7 +21,7 @@ form input[type="text"]{
 	text-align: right;
 }
 form input[type="button"]{
-	background: lightblue;
+	background: tomato;
 	color: white;
 	width: 70px;
 }
