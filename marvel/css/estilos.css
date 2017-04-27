@@ -1,0 +1,30 @@
+body{
+	font-size: 16px;
+}
+#arriba{
+	background: blue;
+	color: white;
+	height: 50px;
+	padding: 5px;
+	padding-top: 20px;
+	text-align: center;
+}
+#abajo{
+	background: orange;
+	color: black;
+	height: 718px;
+	padding-left: 15px;
+	padding-top: 15px;
+	width: 98.5%;
+}
+#arriba button{
+	background: green;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 1em;
+}
+#arriba input{
+	border-radius: 5px;
+	font-size: 1em;
+}
